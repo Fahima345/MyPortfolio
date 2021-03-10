@@ -37,13 +37,13 @@ public class MainActivity extends AppCompatActivity implements PopupMenu.OnMenuI
                 startActivity(new Intent(MainActivity.this, PersonalData.class));
                 return true;
             case R.id.aca_cre:
-                // do your code
+                startActivity(new Intent(MainActivity.this, AcademicCredentials.class));
                 return true;
             case R.id.aca_work:
-                // do your code
+                startActivity(new Intent(MainActivity.this, AcademicWorkExperience.class));
                 return true;
             case R.id.pro_summ:
-                // do your code
+                startActivity(new Intent(MainActivity.this, ProfessionalSummary.class));
                 return true;
             default:
                 return false;
