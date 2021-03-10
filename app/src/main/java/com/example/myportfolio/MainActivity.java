@@ -2,6 +2,7 @@ package com.example.myportfolio;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.view.MenuItem;
 import android.view.View;
@@ -31,6 +32,21 @@ public class MainActivity extends AppCompatActivity implements PopupMenu.OnMenuI
 
     @Override
     public boolean onMenuItemClick(MenuItem item) {
-        return false;
+        switch (item.getItemId()) {
+            case R.id.personal_data:
+                startActivity(new Intent(MainActivity.this, PersonalData.class));
+                return true;
+            case R.id.aca_cre:
+                // do your code
+                return true;
+            case R.id.aca_work:
+                // do your code
+                return true;
+            case R.id.pro_summ:
+                // do your code
+                return true;
+            default:
+                return false;
+        }
     }
 }
