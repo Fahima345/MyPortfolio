@@ -20,7 +20,7 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <TextView
-        android:id="@+id/textView4"
+        android:id="@+id/txtBio"
         android:layout_width="356dp"
         android:layout_height="509dp"
         android:layout_marginStart="28dp"
