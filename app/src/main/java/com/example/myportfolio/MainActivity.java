@@ -43,7 +43,7 @@ public class MainActivity extends AppCompatActivity implements PopupMenu.OnMenuI
                startActivity(new Intent(MainActivity.this, AcademicWorkExperience.class));
                 return true;
             case R.id.pro_summ:
-               // startActivity(new Intent(MainActivity.this, ProfessionalSummary.class));
+                startActivity(new Intent(MainActivity.this, ProfessionalSummary.class));
                 return true;
             default:
                 return false;
