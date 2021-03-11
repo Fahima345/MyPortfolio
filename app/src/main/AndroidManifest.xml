@@ -1,6 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.example.myportfolio">
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+
 
     <application
         android:allowBackup="true"
@@ -9,6 +11,16 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.MyPortfolio">
+        <activity android:name=".PersonalData"/>
+        <activity android:name=".AcademicCredentials"/>
+        <activity android:name=".AcademicWorkExperience"/>
+        <activity android:name=".CapstoneProject"/>
+        <activity android:name=".CareerGoal"/>
+        <activity android:name=".CoverLetter"/>
+        <activity android:name=".Resume"/>
+        <activity android:name=".Transcript"/>
+
+
         <activity android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

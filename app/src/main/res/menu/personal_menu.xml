@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/resume"
+        android:title="Resume" />
+    <item
+        android:id="@+id/coverLetter"
+        android:title="Cover Letter" />
+    <item
+        android:id="@+id/careerGoal"
+        android:title="Career Goal" />
+
+</menu>
