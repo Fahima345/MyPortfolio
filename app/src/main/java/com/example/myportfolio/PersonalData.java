@@ -21,7 +21,11 @@ public class PersonalData extends AppCompatActivity implements PopupMenu.OnMenuI
         setContentView(R.layout.activity_personal_data);
         menu = findViewById(R.id.btnPersonalData);
         bio = findViewById(R.id.txtBio);
-        bio.setText("My Name is Whatever");
+        bio.setText("My Name is Fahima Chowdhury. I am studying computer programmer analyst in Georgebrown College. I'm almost done for my " +
+                "3 years advanced diploma program. I was strugling a lot for my study and i'm thankfull that it's almost done. Life is too short" +
+                "We have to work hard in order to achive our goal. Nothing comes easy in our life. We work hard and end of the day the taste of success is sweet." +
+                "One thing i learned in my life is that there are no secrets to success" + "It is the result of preparation, hard work, and learning from failure." +
+                " Don't be afraid to give up the good to go for the great");
         menu.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
