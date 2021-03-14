@@ -14,6 +14,6 @@ public class ProfessionalSummary extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_professional_summary);
         txtPf = findViewById(R.id.txtPf);
-        txtPf.setText("Put Something");
+        txtPf.setText("Right now i'm working part-time in cheesecake factory as a cashier. I don't have any work experience related to my fields.");
     }
 }
